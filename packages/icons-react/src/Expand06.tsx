@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Expand06 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,11 +9,6 @@ const Expand06 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M16 3h5v5M3 8V3h5m0 18H3v-5m18 0v5h-5"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

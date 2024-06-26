@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Target04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const Target04 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m18.3 3-2.7 2.7v2.7h2.7L21 5.7l-1.8-.9-.9-1.8Zm-2.7 5.4L12 12l3.6-3.6Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M15.6 8.4V5.7L18.3 3l.9 1.8 1.8.9-2.7 2.7h-2.7Zm0 0L12 12m9 0c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9m4.5 9c0 2.4853-2.0147 4.5-4.5 4.5S7.5 14.4853 7.5 12 9.5147 7.5 12 7.5"
+      d="M16 8V5l3-3 1 2 2 1-3 3zm0 0-4 3.9999M22 12c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2m5 10c0 2.7614-2.2386 5-5 5s-5-2.2386-5-5 2.2386-5 5-5"
     />
   </svg>
 );

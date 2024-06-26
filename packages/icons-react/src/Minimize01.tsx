@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Minimize01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,6 @@ const Minimize01 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="transparent" fillOpacity={0.01} d="M4 14h6v6m10-10h-6V4" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

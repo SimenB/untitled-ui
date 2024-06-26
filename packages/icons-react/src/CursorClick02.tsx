@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CursorClick02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const CursorClick02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m8.85 7.85 3.7 11.5 2.6-2.6L18.4 20l2.6-2.6-3.25-3.25 2.6-2.6-11.5-3.7Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9.3 3.35V2M5.7546 4.7546 4.8 3.8m.9546 8.1-.9546.9546m8.1-8.1.9546-.9546M4.35 8.3H3m5.85-.45 3.7 11.5 2.6-2.6L18.4 20l2.6-2.6-3.25-3.25 2.6-2.6-11.5-3.7Z"
+      d="M9 3.5V2M5.0607 5.0607 4 4m1.0607 9L4 14.0607m9-9L14.0607 4M3.5 9H2m6.5-.5 4.1111 12.7778L15.5 18.3889 19.1111 22 22 19.1111 18.3889 15.5l2.8889-2.8889z"
     />
   </svg>
 );

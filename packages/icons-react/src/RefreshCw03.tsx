@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const RefreshCw03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const RefreshCw03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m3.9 3 5.4.0002V8.4m9 12.6h-5.4v-5.4"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12.9 21s.7643-.1092 3.9276-3.2724c3.1632-3.1633 3.1632-8.292 0-11.4552-1.1208-1.1207-2.4882-1.8444-3.9276-2.171M12.9 21h5.4m-5.4 0v-5.4M9.3 3.0002s-.7643.1092-3.9276 3.2724c-3.1632 3.1633-3.1632 8.2919 0 11.4551 1.1208 1.1208 2.4882 1.8445 3.9276 2.171m0-16.8985L3.9 3m5.4.0002V8.4"
+      d="M14 22s.8492-.1213 4.364-3.636c3.5147-3.5148 3.5147-9.2132 0-12.728C17.1187 4.3908 15.5993 3.5867 14 3.2238M14 22h6m-6 0v-6M10 2.0002s-.8492.1213-4.364 3.636c-3.5147 3.5148-3.5147 9.2132 0 12.728 1.2453 1.2452 2.7647 2.0493 4.364 2.4122m0-18.7762L4 2m6 .0002V8"
     />
   </svg>
 );

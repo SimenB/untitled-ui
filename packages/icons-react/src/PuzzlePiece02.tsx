@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const PuzzlePiece02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,13 +10,11 @@ const PuzzlePiece02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m12 2 3.24 3.24c2.16-5.67 8.19.36 2.52 2.52L21 11l-3.24 3.24c-2.16-5.67-8.19.36-2.52 2.52L12 20l-3.24-3.24C6.6 22.43.57 16.4 6.24 14.24L3 11l3.24-3.24c2.16 5.67 8.19-.36 2.52-2.52L12 2Z"
+      d="m12 2 3.6 3.6c2.4-6.3 9.1.4 2.8 2.8L22 12l-3.6 3.6c-2.4-6.3-9.1.4-2.8 2.8L12 22l-3.6-3.6C6 24.7-.7 18 5.6 15.6L2 12l3.6-3.6C8 14.7 14.7 8 8.4 5.6z"
     />
   </svg>
 );

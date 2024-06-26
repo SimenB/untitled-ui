@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const MagicWand02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,11 +9,6 @@ const MagicWand02 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M15 4V2v2Zm0 12v-2 2ZM8 9h2-2Zm12 0h2-2Zm-2.2 2.8L19 13l-1.2-1.2Zm0-5.6L19 5l-1.2 1.2ZM3 21l9-9-9 9Zm9.2-14.8L11 5l1.2 1.2Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

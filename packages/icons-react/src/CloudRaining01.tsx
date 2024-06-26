@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CloudRaining01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const CloudRaining01 = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M19.2 13.918c1.0854-.7265 1.8-1.9638 1.8-3.368 0-2.1092-1.6124-3.8418-3.6718-4.0326C16.907 3.955 14.6818 2 12 2S7.093 3.955 6.6718 6.5174C4.6124 6.7082 3 8.4408 3 10.55c0 1.4042.7146 2.6415 1.8 3.368M8.4 16.4v1.8m0-7.2v1.8m7.2 3.6v1.8m0-7.2v1.8M12 18.2V20m0-7.2v1.8"
+      d="M20 15.2422c1.206-.8072 2-2.182 2-3.7422 0-2.3436-1.7915-4.2687-4.0797-4.4806C17.4522 4.172 14.9798 2 12 2S6.5478 4.1721 6.0797 7.0194C3.7915 7.2313 2 9.1564 2 11.5c0 1.5602.794 2.935 2 3.7422M8 18v2m0-8v2m8 4v2m0-8v2m-4 6v2m0-8v2"
     />
   </svg>
 );

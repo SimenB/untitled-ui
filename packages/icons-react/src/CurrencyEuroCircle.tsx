@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CurrencyEuroCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const CurrencyEuroCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M15 7.6458C14.2039 6.9333 13.1525 6.5 12 6.5c-2.4853 0-4.5 2.0147-4.5 4.5s2.0147 4.5 4.5 4.5c1.1525 0 2.2039-.4333 3-1.1458M6.6 12.35h4.5m-4.5-2.7h4.5M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M15.3333 8.2732C14.4487 7.4814 13.2806 7 12 7c-2.7614 0-5 2.2386-5 5s2.2386 5 5 5c1.2806 0 2.4487-.4814 3.3333-1.2732M6 13.5h5m-5-3h5M22 12c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2s10 4.4772 10 10"
     />
   </svg>
 );

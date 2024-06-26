@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const ArrowNarrowUpLeft = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,7 +9,6 @@ const ArrowNarrowUpLeft = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="transparent" fillOpacity={0.01} d="M6 14V6h8" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

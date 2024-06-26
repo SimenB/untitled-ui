@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const FlashOff = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const FlashOff = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M11.1 13.8H4.5372c-.4903 0-.7355 0-.8593-.1a.45.45 0 0 1-.167-.3568c.0023-.1591.1593-.3474.4732-.7241L7.5 8.4l7.2 7.2-4.5 5.4.9-7.2Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m7.5 8.4-3.5159 4.2191c-.314.3767-.4709.565-.4733.7241a.45.45 0 0 0 .1671.3568c.1238.1.369.1.8593.1H11.1l-.9 7.2 4.5-5.4m-.315-5.4h3.2778c.4903 0 .7355 0 .8593.1a.4501.4501 0 0 1 .1671.3568c-.0024.1591-.1594.3474-.4733.7241l-1.2207 1.4648M9.8155 5.6214 12 3l-.5398 4.318M19.2 20.1 3 3.9"
+      d="m8 8-3.9065 4.6879c-.3488.4185-.5233.6278-.526.8046a.5.5 0 0 0 .1858.3964C3.8908 14 4.1632 14 4.708 14H12l-1 8 5-6m-.35-6h3.642c.5448 0 .8173 0 .9547.1111a.5.5 0 0 1 .1857.3964c-.0026.1768-.177.3861-.5259.8046l-1.3563 1.6276m-7.9774-8.027L13 2l-.5998 4.7977M21 21 3 3"
     />
   </svg>
 );

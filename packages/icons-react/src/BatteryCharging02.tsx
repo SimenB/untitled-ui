@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const BatteryCharging02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const BatteryCharging02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m9.75 16.8 3.6-5.4h-5.4l3.6-5.4"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m9.75 16.8 3.6-5.4h-5.4l3.6-5.4M21 12.3v-1.8m-7.2 6.3h.18c1.5121 0 2.2682 0 2.8458-.2943a2.6996 2.6996 0 0 0 1.1799-1.1799c.2943-.5776.2943-1.3337.2943-2.8458V9.6c0-.837 0-1.2555-.092-1.5988a2.7 2.7 0 0 0-1.9092-1.9092C15.9555 6 15.537 6 14.7 6M7.5 6h-.18c-1.5121 0-2.2682 0-2.8458.2943a2.7 2.7 0 0 0-1.18 1.18C3 8.0517 3 8.8078 3 10.32v2.88c0 .837 0 1.2555.092 1.5988a2.7 2.7 0 0 0 1.9092 1.9092c.3433.092.7618.092 1.5988.092"
+      d="m9.5 18 4-6h-6l4-6M22 13v-2m-8 7h.2c1.6802 0 2.5202 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.7202 19 14.8802 19 13.2V10c0-.93 0-1.395-.1022-1.7765a3 3 0 0 0-2.1213-2.1213C16.395 6 15.93 6 15 6M7 6h-.2c-1.6802 0-2.5202 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.2798 2 9.1198 2 10.8V14c0 .93 0 1.395.1022 1.7765a3 3 0 0 0 2.1213 2.1213C4.605 18 5.07 18 6 18"
     />
   </svg>
 );

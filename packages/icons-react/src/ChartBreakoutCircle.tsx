@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const ChartBreakoutCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,13 +9,12 @@ const ChartBreakoutCircle = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="transparent" fillOpacity={0.01} d="M11 8.4h3.6V12" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M14.15 4.35V3m3.5454 2.3046L18.65 4.35m.0092 4.5h1.35m-.0536 4.05C19.504 17.448 15.6668 21 11 21c-4.9706 0-9-4.0294-9-9 0-4.6668 3.552-8.504 8.1-8.9556M11 8.4h3.6V12m-.3423-3.6c-2.1189 2.9948-5.61 4.95-9.5577 4.95-.9026 0-1.7814-.1022-2.6253-.2957"
+      d="M15.5 3.5V2m3.9393 2.5607L20.5 3.5m.0103 5h1.5m-.0597 4.5c-.5017 5.0533-4.7653 9-9.9506 9-5.5228 0-10-4.4772-10-10 0-5.1853 3.9467-9.4489 9-9.9506M12 8h4v4m-.3803-4C13.2653 11.3276 9.3864 13.5 5 13.5a13.05 13.05 0 0 1-2.917-.3285"
     />
   </svg>
 );

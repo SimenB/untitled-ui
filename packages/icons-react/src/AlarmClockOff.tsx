@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const AlarmClockOff = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const AlarmClockOff = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M21 5.7 18.3 3 21 5.7ZM6.6 17.4l-1.8 1.8 1.8-1.8Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M10.65 4.9277a7.2 7.2 0 0 1 8.4223 8.4223m-1.5503 3.2704a7.2003 7.2003 0 0 1-10.6132.4708 7.2 7.2 0 0 1 .4663-10.6094M4.8 3.9 3 5.7m18 0L18.3 3M6.6 17.4l-1.8 1.8m15.3 0L3.9 3"
+      d="M10.5 5.1419A8 8 0 0 1 19.8582 14.5m-1.7226 3.6336a8.0005 8.0005 0 0 1-11.7924.5232 8 8 0 0 1 .518-11.7883M4 4 2 6m20 0-3-3M6 19l-2 2m17 0L3 3"
     />
   </svg>
 );

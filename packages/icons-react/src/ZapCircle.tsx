@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const ZapCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,28 +10,18 @@ const ZapCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m12 6.15-4.1746 6.0721c-.2513.3655-.377.5483-.3694.7002a.45.45 0 0 0 .1764.3354c.121.0923.3428.0923.7863.0923H12v4.5l4.1746-6.0721c.2513-.3655.3769-.5483.3694-.7002a.4502.4502 0 0 0-.1764-.3354c-.121-.0923-.3428-.0923-.7863-.0923H12v-4.5Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="m12 5.5-4.6384 6.7468c-.2792.4061-.4188.6092-.4105.778a.5.5 0 0 0 .196.3727c.1344.1025.3808.1025.8737.1025H12v5l4.6384-6.7468c.2792-.4061.4189-.6092.4105-.778a.5.5 0 0 0-.1961-.3727c-.1343-.1025-.3807-.1025-.8736-.1025H12z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m12 6.15-4.1746 6.0721c-.2513.3655-.377.5483-.3694.7002a.45.45 0 0 0 .1764.3354c.121.0923.3428.0923.7863.0923H12v4.5l4.1746-6.0721c.2513-.3655.3769-.5483.3694-.7002a.4502.4502 0 0 0-.1764-.3354c-.121-.0923-.3428-.0923-.7863-.0923H12v-4.5Z"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
+      d="M12 22c5.5228 0 10-4.4772 10-10S17.5228 2 12 2 2 6.4772 2 12s4.4772 10 10 10"
     />
   </svg>
 );

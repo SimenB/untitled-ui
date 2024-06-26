@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
-const AlignTopArrow01 = (props: SVGProps<SVGSVGElement>) => (
+import type { SVGProps } from 'react';
+const AlignTop01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
@@ -9,7 +9,6 @@ const AlignTopArrow01 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="transparent" fillOpacity={0.01} d="m5 14 7-7 7 7" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
@@ -19,4 +18,4 @@ const AlignTopArrow01 = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default AlignTopArrow01;
+export default AlignTop01;

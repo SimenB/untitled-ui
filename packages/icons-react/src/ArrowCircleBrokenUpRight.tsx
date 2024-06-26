@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const ArrowCircleBrokenUpRight = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const ArrowCircleBrokenUpRight = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M14.7001 13.7001v-5.4h-5.4"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M3.3054 13.3306c-.8018-3.0026-.025-6.339 2.3306-8.6946 3.5148-3.5147 9.2132-3.5147 12.728 0 3.5147 3.5148 3.5147 9.2132 0 12.728-2.3556 2.3555-5.692 3.1324-8.6946 2.3306m5.0307-5.9945v-5.4m0 0h-5.4m5.4 0L5.7 17.3"
+      d="M2.3394 14.5896c-.891-3.3362-.0278-7.0434 2.5895-9.6607 3.9053-3.9052 10.2369-3.9052 14.1422 0 3.9052 3.9053 3.9052 10.2369 0 14.1422-2.6173 2.6173-6.3245 3.4804-9.6606 2.5895M15 15.0001v-6m0 0H9m6 0L5 19"
     />
   </svg>
 );

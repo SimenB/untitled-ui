@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const PresentationChart03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const PresentationChart03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 14.7v4.5-4.5ZM3.9 3h16.2v7.38c0 1.5121 0 2.2682-.2943 2.8458a2.6996 2.6996 0 0 1-1.1799 1.1799c-.5776.2943-1.3337.2943-2.8458.2943H8.22c-1.5121 0-2.2682 0-2.8458-.2943a2.6998 2.6998 0 0 1-1.18-1.1799C3.9 12.6482 3.9 11.8921 3.9 10.38V3Zm4.5 3.6v4.5-4.5ZM12 8.4v2.7-2.7Zm3.6 1.8v.9-.9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 14.7v4.5m0-4.5 5.4 4.5M12 14.7l-5.4 4.5M8.4 6.6v4.5M12 8.4v2.7m3.6-.9v.9M21 3H3m.9 0h16.2v7.38c0 1.5121 0 2.2682-.2943 2.8458a2.6996 2.6996 0 0 1-1.1799 1.1799c-.5776.2943-1.3337.2943-2.8458.2943H8.22c-1.5121 0-2.2682 0-2.8458-.2943a2.6998 2.6998 0 0 1-1.18-1.1799C3.9 12.6482 3.9 11.8921 3.9 10.38V3Z"
+      d="M12 16v5m0-5 6 5m-6-5-6 5M8 7v5m4-3v3m4-1v1m6-9H2m1 0h18v8.2c0 1.6802 0 2.5202-.327 3.162a3 3 0 0 1-1.311 1.311C18.7202 16 17.8802 16 16.2 16H7.8c-1.6802 0-2.5202 0-3.162-.327a3 3 0 0 1-1.311-1.311C3 13.7202 3 12.8802 3 11.2z"
     />
   </svg>
 );

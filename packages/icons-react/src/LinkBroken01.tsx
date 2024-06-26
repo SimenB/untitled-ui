@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const LinkBroken01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const LinkBroken01 = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9.3 4.8V3m5.4 16.2V21M4.8 9.3H3m16.2 5.4H21M5.6228 5.6228 4.35 4.35m14.0272 14.0272L19.65 19.65M12 17.0912l-1.9092 1.9092c-1.4059 1.4058-3.6853 1.4058-5.0912 0-1.4058-1.4059-1.4058-3.6853 0-5.0912L6.9088 12m10.1824 0 1.9092-1.9092c1.4058-1.4059 1.4058-3.6853 0-5.0912-1.4059-1.4058-3.6853-1.4058-5.0912 0L12 6.9088"
+      d="M9 4V2m6 18v2M4 9H2m18 6h2M4.9142 4.9142 3.5 3.5m15.5858 15.5858L20.5 20.5M12 17.6569l-2.1213 2.1213c-1.5621 1.5621-4.0948 1.5621-5.6569 0s-1.562-4.0948 0-5.6569L6.3431 12m11.3138 0 2.1213-2.1213c1.5621-1.5621 1.5621-4.0948 0-5.6569s-4.0948-1.562-5.6569 0L12 6.3431"
     />
   </svg>
 );

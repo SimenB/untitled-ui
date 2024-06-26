@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const MarkerPin04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const MarkerPin04 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 15.5c1.35-2.7 5.4-4.4427 5.4-8.1C17.4 4.4177 14.9823 2 12 2 9.0177 2 6.6 4.4177 6.6 7.4c0 3.6573 4.05 5.4 5.4 8.1Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 8.3a.9.9 0 0 0 .9-.9.9.9 0 0 0-.9-.9.9.9 0 0 0-.9.9.9.9 0 0 0 .9.9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M5.7 13.0577C4.0338 13.7928 3 14.8171 3 15.95 3 18.1868 7.0294 20 12 20s9-1.8132 9-4.05c0-1.1329-1.0338-2.1572-2.7-2.8923M17.4 7.4c0 3.6573-4.05 5.4-5.4 8.1-1.35-2.7-5.4-4.4427-5.4-8.1C6.6 4.4177 9.0177 2 12 2c2.9823 0 5.4 2.4177 5.4 5.4Zm-4.5 0a.9.9 0 0 1-.9.9.9.9 0 0 1-.9-.9.9.9 0 0 1 .9-.9.9.9 0 0 1 .9.9Z"
+      d="M5 14.2864c-1.8514.8167-3 1.9548-3 3.2136C2 19.9853 6.4772 22 12 22s10-2.0147 10-4.5c0-1.2588-1.1486-2.3969-3-3.2136M18 8c0 4.0637-4.5 6-6 9-1.5-3-6-4.9363-6-9 0-3.3137 2.6863-6 6-6s6 2.6863 6 6m-5 0c0 .5523-.4477 1-1 1s-1-.4477-1-1 .4477-1 1-1 1 .4477 1 1"
     />
   </svg>
 );

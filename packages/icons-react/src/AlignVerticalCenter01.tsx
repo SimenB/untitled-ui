@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const AlignVerticalCenter01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const AlignVerticalCenter01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m14.7 5.25-3.6 3.6-3.6-3.6m7.2 13.5-3.6-3.6-3.6 3.6"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M3 12h16.2m-8.1-9v5.85m0 0 3.6-3.6m-3.6 3.6-3.6-3.6M11.1 21v-5.85m0 0 3.6 3.6m-3.6-3.6-3.6 3.6"
+      d="M3 12h18M12 2v6.5m0 0 4-4m-4 4-4-4M12 22v-6.5m0 0 4 4m-4-4-4 4"
     />
   </svg>
 );

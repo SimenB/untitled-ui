@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Repeat04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,11 +9,6 @@ const Repeat04 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m13 22.4001-2-2 2-2m-2-12.8 2-2-2-2"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

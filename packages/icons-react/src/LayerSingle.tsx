@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const LayerSingle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,13 +10,11 @@ const LayerSingle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12.322 7.167c-.1181-.059-.1771-.0886-.239-.1002a.4502.4502 0 0 0-.166 0c-.0619.0116-.1209.0411-.239.1002L3 11.506l8.678 4.339c.1181.059.1771.0885.239.1001a.4498.4498 0 0 0 .166 0c.0619-.0116.1209-.0411.239-.1001L21 11.506l-8.678-4.339Z"
+      d="M12.3578 7.179c-.1312-.0656-.1968-.0984-.2656-.1113a.5.5 0 0 0-.1844 0c-.0688.0129-.1344.0457-.2656.1113L2 12l9.6422 4.8211c.1312.0656.1968.0984.2656.1113a.5.5 0 0 0 .1844 0c.0688-.0129.1344-.0457.2656-.1113L22 12.0001z"
     />
   </svg>
 );

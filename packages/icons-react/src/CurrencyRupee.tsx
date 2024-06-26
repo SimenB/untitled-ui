@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CurrencyRupee = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,11 +9,6 @@ const CurrencyRupee = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M6 3h12H6Zm0 5h12H6Zm0 5 8.5 8L6 13Zm0 0h3-3Zm3 0c6.667 0 6.667-10 0-10v10Z"
-    />
     <path
       stroke="currentColor"
       strokeLinecap="round"

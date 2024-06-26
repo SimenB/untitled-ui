@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const SearchLg = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const SearchLg = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M11.5 20c4.6944 0 8.5-3.8056 8.5-8.5S16.1944 3 11.5 3 3 6.8056 3 11.5 6.8056 20 11.5 20Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m21 21-3.4999-3.5M20 11.5c0 4.6944-3.8056 8.5-8.5 8.5S3 16.1944 3 11.5 6.8056 3 11.5 3 20 6.8056 20 11.5Z"
+      d="m21 21-3.4999-3.5M20 11.5c0 4.6944-3.8056 8.5-8.5 8.5S3 16.1944 3 11.5 6.8056 3 11.5 3 20 6.8056 20 11.5"
     />
   </svg>
 );

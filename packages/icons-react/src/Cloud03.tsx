@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Cloud03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,13 +10,11 @@ const Cloud03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9.75 17.5C6.022 17.5 3 14.4779 3 10.75 3 7.022 6.022 4 9.75 4c2.5944 0 4.847 1.4637 5.9769 3.6104A5.0198 5.0198 0 0 1 16.05 7.6c2.7338 0 4.95 2.2162 4.95 4.95s-2.2162 4.95-4.95 4.95h-6.3Z"
+      d="M9.5 19C5.3579 19 2 15.6421 2 11.5S5.3579 4 9.5 4c2.8827 0 5.3855 1.6263 6.641 4.0115A5.6 5.6 0 0 1 16.5 8c3.0376 0 5.5 2.4624 5.5 5.5S19.5376 19 16.5 19z"
     />
   </svg>
 );

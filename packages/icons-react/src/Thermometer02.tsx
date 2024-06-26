@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Thermometer02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,28 +10,18 @@ const Thermometer02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M13.8 5.25C13.8 4.0074 12.7926 3 11.55 3S9.3 4.0074 9.3 5.25v8.332c-1.0854.7265-1.8 1.9638-1.8 3.368 0 2.2368 1.8133 4.05 4.05 4.05 2.2368 0 4.05-1.8132 4.05-4.05 0-1.4042-.7146-2.6415-1.8-3.368V5.25Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M11.55 17.85a.9.9 0 0 0 .9-.9.9.9 0 0 0-.9-.9.9.9 0 0 0-.9.9.9.9 0 0 0 .9.9Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M14.5 4.5C14.5 3.1193 13.3807 2 12 2S9.5 3.1193 9.5 4.5v9.2578c-1.206.8072-2 2.182-2 3.7422 0 2.4853 2.0147 4.5 4.5 4.5s4.5-2.0147 4.5-4.5c0-1.5602-.794-2.935-2-3.7422z"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M13.8 5.25C13.8 4.0074 12.7926 3 11.55 3S9.3 4.0074 9.3 5.25v8.332c-1.0854.7265-1.8 1.9638-1.8 3.368 0 2.2368 1.8133 4.05 4.05 4.05 2.2368 0 4.05-1.8132 4.05-4.05 0-1.4042-.7146-2.6415-1.8-3.368V5.25Z"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M11.55 17.85a.9.9 0 0 0 .9-.9.9.9 0 0 0-.9-.9.9.9 0 0 0-.9.9.9.9 0 0 0 .9.9Z"
+      d="M12 18.5c.5523 0 1-.4477 1-1s-.4477-1-1-1-1 .4477-1 1 .4477 1 1 1"
     />
   </svg>
 );

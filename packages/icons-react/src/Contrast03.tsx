@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Contrast03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,28 +10,18 @@ const Contrast03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M15.6 7.85c0 3.7279-3.0221 6.75-6.75 6.75a6.7626 6.7626 0 0 1-1.6054-.1921C8.3063 15.8867 10.0406 16.85 12 16.85c3.2309 0 5.85-2.6191 5.85-5.85 0-1.9594-.9633-3.6937-2.4421-4.7554A6.7626 6.7626 0 0 1 15.6 7.85Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M12 22c5.5228 0 10-4.4772 10-10S17.5228 2 12 2 2 6.4772 2 12s4.4772 10 10 10"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M15.6 7.85c0 3.7279-3.0221 6.75-6.75 6.75a6.7626 6.7626 0 0 1-1.6054-.1921C8.3063 15.8867 10.0406 16.85 12 16.85c3.2309 0 5.85-2.6191 5.85-5.85 0-1.9594-.9633-3.6937-2.4421-4.7554A6.7626 6.7626 0 0 1 15.6 7.85Z"
+      d="M16 8.5c0 4.1421-3.3579 7.5-7.5 7.5a7.52 7.52 0 0 1-1.7838-.2134C7.896 17.4297 9.823 18.5 12 18.5c3.5899 0 6.5-2.9101 6.5-6.5 0-2.177-1.0703-4.1041-2.7134-5.2838A7.52 7.52 0 0 1 16 8.5"
     />
   </svg>
 );

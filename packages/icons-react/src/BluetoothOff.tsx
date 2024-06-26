@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const BluetoothOff = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const BluetoothOff = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m5.7 16.5 5.4-4.5v9l4.8958-4.0799M11.1 7.5V3l5.4 4.5-2.6265 2.1888M19.2 20.1 3 3.9"
+      d="m6 17 6-5v10l5.4398-4.5332M12 7V2l6 5-2.9183 2.432M21 21 3 3"
     />
   </svg>
 );

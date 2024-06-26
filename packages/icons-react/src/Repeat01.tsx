@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Repeat01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const Repeat01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m15.6 3 3.6 3.6-3.6 3.6M6.6 21 3 17.4l3.6-3.6"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m15.6 3 3.6 3.6m0 0-3.6 3.6m3.6-3.6H7.32c-1.5121 0-2.2682 0-2.8458.2943a2.7 2.7 0 0 0-1.18 1.18C3 8.6517 3 9.4078 3 10.92v.18m0 6.3h11.88c1.5121 0 2.2682 0 2.8458-.2943a2.6996 2.6996 0 0 0 1.1799-1.1799c.2943-.5776.2943-1.3337.2943-2.8458v-.18M3 17.4 6.6 21M3 17.4l3.6-3.6"
+      d="m17 2 4 4m0 0-4 4m4-4H7.8c-1.6802 0-2.5202 0-3.162.327a3 3 0 0 0-1.311 1.311C3 8.2798 3 9.1198 3 10.8v.2m0 7h13.2c1.6802 0 2.5202 0 3.162-.327a3 3 0 0 0 1.311-1.311C21 15.7202 21 14.8802 21 13.2V13M3 18l4 4m-4-4 4-4"
     />
   </svg>
 );

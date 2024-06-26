@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Coins04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const Coins04 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M9.3 20c3.4794 0 6.3-2.8206 6.3-6.3 0-3.4794-2.8206-6.3-6.3-6.3-3.4794 0-6.3 2.8206-6.3 6.3C3 17.1794 5.8206 20 9.3 20Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M7.95 11.9 9.3 11v4.95m-1.35 0h2.7-2.7Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M10.2909 3.8C11.4272 2.6865 12.9834 2 14.7 2 18.1794 2 21 4.8206 21 8.3c0 1.7166-.6866 3.2729-1.8001 4.4091M7.95 11.9 9.3 11v4.95m-1.35 0h2.7m4.95-2.25c0 3.4794-2.8206 6.3-6.3 6.3C5.8206 20 3 17.1794 3 13.7c0-3.4794 2.8206-6.3 6.3-6.3 3.4794 0 6.3 2.8206 6.3 6.3Z"
+      d="M10.101 4C11.3636 2.7628 13.0927 2 15 2c3.866 0 7 3.134 7 7 0 1.9073-.7628 3.6365-2.0001 4.899M7.5 13 9 12v5.5m-1.5 0h3M16 15c0 3.866-3.134 7-7 7s-7-3.134-7-7 3.134-7 7-7 7 3.134 7 7"
     />
   </svg>
 );

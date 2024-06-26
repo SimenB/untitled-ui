@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Droplets01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const Droplets01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M21 14.6c0 2.9823-2.4177 5.4-5.4 5.4-2.9823 0-5.4-2.4177-5.4-5.4 0-3.8823 5.4-12.6 5.4-12.6S21 10.7177 21 14.6ZM8.4 8.3c0 1.4912-1.2088 2.7-2.7 2.7S3 9.7912 3 8.3C3 6.3588 5.7 2 5.7 2s2.7 4.3588 2.7 6.3Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M21 14.6c0 2.9823-2.4177 5.4-5.4 5.4-2.9823 0-5.4-2.4177-5.4-5.4 0-3.8823 5.4-12.6 5.4-12.6S21 10.7177 21 14.6ZM8.4 8.3c0 1.4912-1.2088 2.7-2.7 2.7S3 9.7912 3 8.3C3 6.3588 5.7 2 5.7 2s2.7 4.3588 2.7 6.3Z"
+      d="M22 16c0 3.3137-2.6863 6-6 6s-6-2.6863-6-6c0-4.3137 6-14 6-14s6 9.6863 6 14M8 9c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3c0-2.1569 3-7 3-7s3 4.8431 3 7"
     />
   </svg>
 );

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const LogOut04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,13 +9,12 @@ const LogOut04 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="transparent" fillOpacity={0.01} d="m17.4 7.5 3.6 3.6-3.6 3.6" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m17.4 7.5 3.6 3.6m0 0-3.6 3.6m3.6-3.6H9.3m5.4-7.0164C13.5527 3.3945 12.2207 3 10.8 3 6.4922 3 3 6.6265 3 11.1s3.4922 8.1 7.8 8.1c1.4207 0 2.7527-.3944 3.9-1.0836"
+      d="m18 8 4 4m0 0-4 4m4-4H9m6-7.796C13.7252 3.4383 12.2452 3 10.6667 3 5.8802 3 2 7.0294 2 12s3.8802 9 8.6667 9c1.5785 0 3.0585-.4383 4.3333-1.204"
     />
   </svg>
 );

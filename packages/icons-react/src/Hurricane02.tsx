@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Hurricane02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const Hurricane02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 16.6c2.9823 0 5.4-2.4177 5.4-5.4 0-2.9823-2.4177-5.4-5.4-5.4-2.9823 0-5.4 2.4177-5.4 5.4 0 2.9823 2.4177 5.4 5.4 5.4Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 12.1a.9.9 0 0 0 .9-.9.9.9 0 0 0-.9-.9.9.9 0 0 0-.9.9.9.9 0 0 0 .9.9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M17.4 11.2c0 2.9823-2.4177 5.4-5.4 5.4-2.9823 0-5.4-2.4177-5.4-5.4m10.8 0c0-2.9823-2.4177-5.4-5.4-5.4-2.9823 0-5.4 2.4177-5.4 5.4m10.8 0c0 3.9765-3.2236 7.2-7.2 7.2-3.9764 0-7.2-3.2235-7.2-7.2m3.6 0C6.6 7.2236 9.8235 4 13.8 4c3.9764 0 7.2 3.2236 7.2 7.2m-8.1 0a.9.9 0 0 1-.9.9.9.9 0 0 1-.9-.9.9.9 0 0 1 .9-.9.9.9 0 0 1 .9.9Z"
+      d="M18 12c0 3.3137-2.6863 6-6 6s-6-2.6863-6-6m12 0c0-3.3137-2.6863-6-6-6s-6 2.6863-6 6m12 0c0 4.4183-3.5817 8-8 8s-8-3.5817-8-8m4 0c0-4.4183 3.5817-8 8-8s8 3.5817 8 8m-9 0c0 .5523-.4477 1-1 1s-1-.4477-1-1 .4477-1 1-1 1 .4477 1 1"
     />
   </svg>
 );

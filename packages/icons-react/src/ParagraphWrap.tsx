@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const ParagraphWrap = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,8 +9,6 @@ const ParagraphWrap = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="transparent" fillOpacity={0.01} d="M3 12h15a3 3 0 0 1 0 6h-4" />
-    <path fill="transparent" fillOpacity={0.01} d="m16 16-2 2 2 2" />
     <path
       stroke="currentColor"
       strokeLinecap="round"

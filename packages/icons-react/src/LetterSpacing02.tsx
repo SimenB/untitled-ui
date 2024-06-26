@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const LetterSpacing02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const LetterSpacing02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m18.3 13.8 2.7 2.7-2.7 2.7M5.7 13.8 3 16.5l2.7 2.7"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M3 16.5h18m-18 0 2.7-2.7M3 16.5l2.7 2.7M21 16.5l-2.7-2.7m2.7 2.7-2.7 2.7M7.5 3h9M12 3v9.9"
+      d="M2 18h20M2 18l3-3m-3 3 3 3m17-3-3-3m3 3-3 3M7 3h10m-5 0v11"
     />
   </svg>
 );

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Star07 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const Star07 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m12 6.5 1.3905 2.817 3.1095.4545-2.25 2.1915.531 3.096L12 13.5965 9.219 15.059l.531-3.096L7.5 9.7715l3.1095-.4545L12 6.5Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M21 11h-1.8m-.8361 6.364-1.2728-1.2728M4.8 11H3m3.9086-5.0911L5.6358 4.636M12 3.8V2m5.0911 3.9089 1.2728-1.2728M12 20v-1.8m-6.3642-.836 1.2728-1.2728M12 6.5l1.3905 2.817 3.1095.4545-2.25 2.1915.531 3.096L12 13.5965 9.219 15.059l.531-3.096L7.5 9.7715l3.1095-.4545L12 6.5Z"
+      d="M22 12h-2m-.929 7.0711-1.4143-1.4142M4 12H2m4.343-5.6568L4.9286 4.929M12 4V2m5.6567 4.3432L19.071 4.929M12 22v-2m-7.0713-.9289 1.4142-1.4142M12 7l1.545 3.13 3.455.505-2.5 2.435.59 3.44L12 14.885 8.91 16.51l.59-3.44L7 10.635l3.455-.505z"
     />
   </svg>
 );

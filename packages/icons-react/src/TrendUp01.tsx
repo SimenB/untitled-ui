@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const TrendUp01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,17 +10,11 @@ const TrendUp01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m21 7-7.0818 7.0818c-.3564.3564-.5346.5346-.7401.6014a.9004.9004 0 0 1-.5562 0c-.2055-.0668-.3837-.245-.7401-.6014l-2.4636-2.4636c-.3564-.3564-.5346-.5346-.74-.6014a.9005.9005 0 0 0-.5563 0c-.2055.0668-.3837.245-.7401.6014L3 16"
-    />
-    <path fill="transparent" fillOpacity={0.01} d="M14.7 7H21v6.3" />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m21 7-7.0818 7.0818c-.3564.3564-.5346.5346-.7401.6014a.9004.9004 0 0 1-.5562 0c-.2055-.0668-.3837-.245-.7401-.6014l-2.4636-2.4636c-.3564-.3564-.5346-.5346-.74-.6014a.9005.9005 0 0 0-.5563 0c-.2055.0668-.3837.245-.7401.6014L3 16m18-9h-6.3M21 7v6.3"
+      d="m22 7-7.8686 7.8686c-.396.396-.5941.5941-.8224.6682a1 1 0 0 1-.618 0c-.2283-.0741-.4264-.2722-.8224-.6682l-2.7372-2.7372c-.396-.396-.594-.5941-.8224-.6682a1 1 0 0 0-.618 0c-.2283.0741-.4264.2722-.8224.6682L2 17M22 7h-7m7 0v7"
     />
   </svg>
 );

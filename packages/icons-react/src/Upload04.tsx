@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Upload04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -9,13 +9,12 @@ const Upload04 = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     {...props}
   >
-    <path fill="transparent" fillOpacity={0.01} d="M15.6 11 12 7.4 8.4 11" />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M15.6 11 12 7.4m0 0L8.4 11M12 7.4v8.28c0 1.2516 0 1.8775.4955 2.5781.3292.4656 1.277 1.0402 1.842 1.1167.8504.1153 1.1733-.0532 1.8192-.3901C19.035 17.4832 21 14.4711 21 11c0-4.9706-4.0294-9-9-9s-9 4.0294-9 9c0 3.3313 1.8099 6.2398 4.5 7.796"
+      d="m16 12-4-4m0 0-4 4m4-4v9.2c0 1.3907 0 2.0861.5505 2.8646.3658.5173 1.4189 1.1557 2.0467 1.2408.9449.128 1.3037-.0592 2.0214-.4335C19.8167 19.2036 22 15.8568 22 12c0-5.5228-4.4772-10-10-10S2 6.4772 2 12c0 3.7014 2.011 6.9331 5 8.6622"
     />
   </svg>
 );

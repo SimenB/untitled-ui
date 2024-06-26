@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const DownloadCloud02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const DownloadCloud02 = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m8.4 15.6 3.6 3.6m0 0 3.6-3.6M12 19.2v-8.1m7.2 4.2686c1.0994-.908 1.8-2.2815 1.8-3.8186 0-2.7338-2.2162-4.95-4.95-4.95-.1967 0-.3806-.1026-.4805-.272C14.3959 4.3364 12.229 3 9.75 3 6.022 3 3 6.022 3 9.75c0 1.8595.7519 3.5434 1.9683 4.7642"
+      d="m8 17 4 4m0 0 4-4m-4 4v-9m8 4.7428c1.2215-1.0088 2-2.5349 2-4.2428C22 9.4624 19.5376 7 16.5 7c-.2185 0-.4229-.114-.5339-.3023C14.6621 4.4848 12.2544 3 9.5 3 5.3579 3 2 6.3579 2 10.5c0 2.0661.8354 3.9371 2.187 5.2935"
     />
   </svg>
 );

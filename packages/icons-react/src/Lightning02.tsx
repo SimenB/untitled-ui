@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Lightning02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,13 +10,11 @@ const Lightning02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M13.1556 3h-5.18c-.1615 0-.2423 0-.3136.0246a.45.45 0 0 0-.1681.104c-.054.0527-.09.125-.1623.2694l-3.78 7.56c-.1725.345-.2587.5175-.238.6578a.4503.4503 0 0 0 .1872.303C3.617 12 3.8098 12 4.1956 12h5.585l-2.7 9L18.0544 9.6198c.3702-.384.5554-.576.5662-.7402a.45.45 0 0 0-.1587-.3734C18.3362 8.4 18.0695 8.4 17.5361 8.4h-6.4055l2.025-5.4Z"
+      d="M14.2495 2H8.494c-.1795 0-.2693 0-.3485.0273a.5.5 0 0 0-.1868.1155c-.0599.0586-.1.1389-.1803.2994l-4.2 8.4c-.1917.3834-.2875.5751-.2645.7309a.5.5 0 0 0 .208.3366C3.651 12 3.8654 12 4.294 12h6.2056l-3 10 12.193-12.6447c.4114-.4266.6171-.6399.6291-.8224a.5.5 0 0 0-.1763-.4149C20.0057 8 19.7094 8 19.1167 8h-7.1172z"
     />
   </svg>
 );

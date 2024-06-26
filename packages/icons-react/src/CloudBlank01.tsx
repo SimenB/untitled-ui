@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CloudBlank01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,13 +10,11 @@ const CloudBlank01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M7.05 17.6C4.8133 17.6 3 15.7868 3 13.55c0-2.1092 1.6124-3.8418 3.6718-4.0326C7.093 6.955 9.3182 5 12 5s4.907 1.955 5.3282 4.5174C19.3876 9.7082 21 11.4408 21 13.55c0 2.2368-1.8132 4.05-4.05 4.05h-9.9Z"
+      d="M6.5 19C4.0147 19 2 16.9853 2 14.5c0-2.3436 1.7915-4.2687 4.0797-4.4806C6.5478 7.1721 9.0202 5 12 5s5.4522 2.1721 5.9203 5.0194C20.2085 10.2313 22 12.1564 22 14.5c0 2.4853-2.0147 4.5-4.5 4.5z"
     />
   </svg>
 );

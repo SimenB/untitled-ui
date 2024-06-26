@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const HelpCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const HelpCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M9.381 9.3a2.6997 2.6997 0 0 1 3.0035-1.7652A2.7003 2.7003 0 0 1 14.628 10.2c0 1.8-2.7 2.7-2.7 2.7"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9.381 9.3a2.6997 2.6997 0 0 1 3.0035-1.7652A2.7003 2.7003 0 0 1 14.628 10.2c0 1.8-2.7 2.7-2.7 2.7M12 16.5h.009M21 12c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M9.09 9a2.9999 2.9999 0 0 1 5.83 1c0 2-3 3-3 3m.08 4h.01M22 12c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2s10 4.4772 10 10"
     />
   </svg>
 );

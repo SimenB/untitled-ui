@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const FaceContent = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const FaceContent = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M8.4 12.8s1.35 1.8 3.6 1.8 3.6-1.8 3.6-1.8m.9-4.284c-.3555.4365-.8415.684-1.35.684-.5085 0-.981-.2475-1.35-.684m-3.6 0c-.3555.4365-.8415.684-1.35.684-.5085 0-.981-.2475-1.35-.684"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M8.4 12.8s1.35 1.8 3.6 1.8 3.6-1.8 3.6-1.8m.9-4.284c-.3555.4365-.8415.684-1.35.684-.5085 0-.981-.2475-1.35-.684m-3.6 0c-.3555.4365-.8415.684-1.35.684-.5085 0-.981-.2475-1.35-.684M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M8 14s1.5 2 4 2 4-2 4-2m1-4.76c-.395.485-.935.76-1.5.76s-1.09-.275-1.5-.76m-4 0c-.395.485-.935.76-1.5.76S7.41 9.725 7 9.24M22 12c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2s10 4.4772 10 10"
     />
   </svg>
 );

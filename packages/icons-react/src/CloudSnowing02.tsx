@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CloudSnowing02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const CloudSnowing02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M7.5 13.7C5.0147 13.7 3 11.6853 3 9.2s2.0147-4.5 4.5-4.5c.0298 0 .0596.0003.0893.0009C8.4085 3.0976 10.076 2 12 2c2.2673 0 4.1786 1.5244 4.7648 3.6042A4.1225 4.1225 0 0 1 16.95 5.6C19.1868 5.6 21 7.4133 21 9.65c0 2.2368-1.8132 4.05-4.05 4.05H7.5Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M8.4 16.4h.009M8.4 19.1h.009M12 16.85h.009M12 19.55h.009M15.6 16.4h.009m-.009 2.7h.009M7.5 13.7C5.0147 13.7 3 11.6853 3 9.2s2.0147-4.5 4.5-4.5c.0298 0 .0596.0003.0893.0009C8.4085 3.0976 10.076 2 12 2c2.2673 0 4.1786 1.5244 4.7648 3.6042A4.1225 4.1225 0 0 1 16.95 5.6C19.1868 5.6 21 7.4133 21 9.65c0 2.2368-1.8132 4.05-4.05 4.05H7.5Z"
+      d="M8 18h.01M8 21h.01M12 18.5h.01m-.01 3h.01M16 18h.01M16 21h.01M7 15c-2.7614 0-5-2.2386-5-5s2.2386-5 5-5q.0497 0 .0992.001C8.0094 3.2196 9.8622 2 12 2c2.5192 0 4.6429 1.6938 5.2943 4.0046A5 5 0 0 1 17.5 6c2.4853 0 4.5 2.0147 4.5 4.5S19.9853 15 17.5 15z"
     />
   </svg>
 );

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CloudLightning = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const CloudLightning = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m12.9 9.2-3.6 5.4h5.4L11.1 20"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M18.3 14.3695c1.573-.5559 2.7-2.0561 2.7-3.8195 0-2.1092-1.6124-3.8418-3.6718-4.0326C16.907 3.955 14.6818 2 12 2S7.093 3.955 6.6718 6.5174C4.6124 6.7082 3 8.4408 3 10.55c0 1.7634 1.127 3.2636 2.7 3.8195M12.9 9.2l-3.6 5.4h5.4L11.1 20"
+      d="M19 15.7439c1.7478-.6177 3-2.2846 3-4.2439 0-2.3436-1.7915-4.2687-4.0797-4.4806C17.4522 4.172 14.9798 2 12 2S6.5478 4.1721 6.0797 7.0194C3.7915 7.2313 2 9.1564 2 11.5c0 1.9593 1.2522 3.6262 3 4.2439M13 10l-4 6h6l-4 6"
     />
   </svg>
 );

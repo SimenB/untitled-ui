@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Sale01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const Sale01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M9.75 8.3a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Zm5.4 5.4a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M9.3 8.3h.009m5.391 5.4h.009m.891-6.3-7.2 7.2M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9ZM9.75 8.3a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Zm5.4 5.4a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Z"
+      d="M9 9h.01M15 15h.01M16 8l-8 8m14-4c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2s10 4.4772 10 10M9.5 9a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m6 6a.5.5 0 1 1-1.0001-.0001A.5.5 0 0 1 15.5 15"
     />
   </svg>
 );

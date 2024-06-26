@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Compass01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const Compass01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M10.65 9.65 8.4 11l2.25 1.35L12 14.6l1.35-2.25L15.6 11l-2.25-1.35L12 7.4l-1.35 2.25Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M21 11c0 4.9706-4.0294 9-9 9m9-9c0-4.9706-4.0294-9-9-9m9 9h-1.8M12 20c-4.9706 0-9-4.0294-9-9m9 9v-1.8M3 11c0-4.9706 4.0294-9 9-9m-9 9h1.8M12 2v1.8m6.364 13.564-1.2728-1.2728M6.9088 5.9088 5.636 4.636m11.4552 1.2728L18.364 4.636M5.636 17.364l1.2728-1.2728M8.4 11l2.25-1.35L12 7.4l1.35 2.25L15.6 11l-2.25 1.35L12 14.6l-1.35-2.25L8.4 11Z"
+      d="M22 12c0 5.5228-4.4772 10-10 10m10-10c0-5.5228-4.4772-10-10-10m10 10h-2m-8 10C6.4772 22 2 17.5228 2 12m10 10v-2M2 12C2 6.4772 6.4772 2 12 2M2 12h2m8-10v2m7.0711 15.0711-1.4142-1.4142M6.3432 6.3432 4.9289 4.9289m12.728 1.4143 1.4142-1.4143M4.9289 19.0711l1.4143-1.4142M8 12l2.5-1.5L12 8l1.5 2.5L16 12l-2.5 1.5L12 16l-1.5-2.5z"
     />
   </svg>
 );

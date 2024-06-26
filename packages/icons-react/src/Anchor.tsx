@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Anchor = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const Anchor = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 8.4c1.4912 0 2.7-1.2088 2.7-2.7S13.4912 3 12 3 9.3 4.2088 9.3 5.7s1.2088 2.7 2.7 2.7ZM5.7 12H3a9.0003 9.0003 0 0 0 9 9 9.0004 9.0004 0 0 0 6.364-2.636A9.0004 9.0004 0 0 0 21 12h-2.7"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 8.4c1.4912 0 2.7-1.2088 2.7-2.7S13.4912 3 12 3 9.3 4.2088 9.3 5.7s1.2088 2.7 2.7 2.7Zm0 0V21m0 0a9 9 0 0 1-9-9h2.7m6.3 9a9.0004 9.0004 0 0 0 6.364-2.636A9.0004 9.0004 0 0 0 21 12h-2.7"
+      d="M12 8c1.6569 0 3-1.3431 3-3s-1.3431-3-3-3-3 1.3432-3 3 1.3431 3 3 3m0 0v14m0 0A10.0003 10.0003 0 0 1 2 12h3m7 10a10.0003 10.0003 0 0 0 10-10h-3"
     />
   </svg>
 );

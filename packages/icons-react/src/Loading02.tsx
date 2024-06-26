@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Loading02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const Loading02 = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 3v3.6m0 10.8V21m-5.4-9H3m18 0h-3.6m.9706 6.3706L15.825 15.825M18.3706 5.7 15.825 8.2455M5.6294 18.3706 8.175 15.825M5.6294 5.7 8.175 8.2455"
+      d="M12 2v4m0 12v4M6 12H2m20 0h-4m1.0784 7.0784L16.25 16.25M19.0784 5 16.25 7.8283m-11.3284 11.25L7.75 16.25M4.9216 5 7.75 7.8283"
     />
   </svg>
 );

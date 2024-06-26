@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CurrencyDollarCircle = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const CurrencyDollarCircle = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 20c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M8.85 13.4c0 1.1598.9402 2.1 2.1 2.1h1.95c1.2426 0 2.25-1.0074 2.25-2.25S14.1426 11 12.9 11h-1.8c-1.2426 0-2.25-1.0074-2.25-2.25S9.8574 6.5 11.1 6.5h1.95c1.1598 0 2.1.9402 2.1 2.1M12 5.15V6.5m0 9v1.35M21 11c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M8.5 14.6667C8.5 15.9553 9.5447 17 10.8333 17H13c1.3807 0 2.5-1.1193 2.5-2.5S14.3807 12 13 12h-2c-1.3807 0-2.5-1.1193-2.5-2.5S9.6193 7 11 7h2.1667C14.4553 7 15.5 8.0447 15.5 9.3333M12 5.5V7m0 10v1.5M22 12c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2s10 4.4772 10 10"
     />
   </svg>
 );

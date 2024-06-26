@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Contrast01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const Contrast01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M3 11c0 4.9706 4.0294 9 9 9V2c-4.9706 0-9 4.0294-9 9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 2c.5325 0 1.0542.0463 1.5613.135M12 2c-4.9706 0-9 4.0294-9 9s4.0294 9 9 9m0-18v18m5.1642-16.3719a9.0494 9.0494 0 0 1 2.2098 2.2108m1.4911 3.6002A9.0517 9.0517 0 0 1 21 11a9.0515 9.0515 0 0 1-.1349 1.5609m-1.4949 3.6056a9.0492 9.0492 0 0 1-2.207 2.2061m-3.6037 1.4928A9.0552 9.0552 0 0 1 12 20"
+      d="M12 2c.5917 0 1.1713.0514 1.7348.15M12 2C6.4772 2 2 6.4772 2 12s4.4772 10 10 10m0-20v20m5.738-18.191a10.06 10.06 0 0 1 2.4554 2.4564m1.6567 4.0002C21.9486 10.8289 22 11.4085 22 12s-.0514 1.1711-.1499 1.7344m-1.6609 4.0062a10.06 10.06 0 0 1-2.4523 2.4511m-4.0041 1.6587A10.07 10.07 0 0 1 12 22"
     />
   </svg>
 );

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const CurrencyEthereum = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const CurrencyEthereum = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m5.35 14.7 5.8501 6.3 5.8499-6.3-5.85 1.35-5.85-1.35ZM4 11.1001 11.2 12.9l7.2-1.8L11.2 3 4 11.1001ZM11.2 3v6.3V3Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="m4 11.1001 7.2-1.8L18.4 11.1"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M4 11.1001 11.2 12.9l7.2-1.8M4 11.1001 11.2 3M4 11.1001l7.2-1.8M18.4 11.1 11.2 3m7.2 8.1-7.2-1.8m0-6.3v6.3m-5.85 5.4 5.8501 6.3 5.8499-6.3-5.85 1.35-5.85-1.35Z"
+      d="M4 11.0001 12 13l8-2m-16 .0001L12 2m-8 9.0001 8-2M20 11l-8-9m8 9-8-2m0-7v7m-6.5 6 6.5001 7L18.5 15 12 16.5z"
     />
   </svg>
 );

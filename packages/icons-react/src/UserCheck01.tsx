@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const UserCheck01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const UserCheck01 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M10.2 11.1c2.2368 0 4.05-1.8133 4.05-4.05S12.4368 3 10.2 3C7.9633 3 6.15 4.8133 6.15 7.05s1.8133 4.05 4.05 4.05Zm5.4 5.4 1.8 1.8 3.6-3.6"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 14.25H7.95c-1.256 0-1.884 0-2.395.155a3.6 3.6 0 0 0-2.4 2.4C3 17.316 3 17.944 3 19.2m12.6-2.7 1.8 1.8 3.6-3.6m-6.75-7.65c0 2.2367-1.8132 4.05-4.05 4.05-2.2367 0-4.05-1.8133-4.05-4.05S7.9633 3 10.2 3c2.2368 0 4.05 1.8133 4.05 4.05Z"
+      d="M12 15.5H7.5c-1.3956 0-2.0933 0-2.6611.1722a4 4 0 0 0-2.6667 2.6667C2 18.9067 2 19.6044 2 21m14-3 2 2 4-4m-7.5-8.5c0 2.4853-2.0147 4.5-4.5 4.5S5.5 9.9853 5.5 7.5 7.5147 3 10 3s4.5 2.0147 4.5 4.5"
     />
   </svg>
 );

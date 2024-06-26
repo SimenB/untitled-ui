@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Compass = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const Compass = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M11.1 9.3c1.2426 0 2.25-1.0074 2.25-2.25S12.3426 4.8 11.1 4.8 8.85 5.8074 8.85 7.05 9.8574 9.3 11.1 9.3Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M11.1 4.8c-1.2426 0-2.25 1.0074-2.25 2.25S9.8574 9.3 11.1 9.3s2.25-1.0074 2.25-2.25S12.3426 4.8 11.1 4.8Zm0 0V3m8.1 11.6437C17.2211 16.8859 14.3257 18.3 11.1 18.3S4.979 16.8859 3 14.6437m6.9703-5.6482L3 21m9.2297-12.0045L19.2 21"
+      d="M12 4c-1.3807 0-2.5 1.1193-2.5 2.5S10.6193 9 12 9s2.5-1.1193 2.5-2.5S13.3807 4 12 4m0 0V2m9 12.9375C18.8012 17.4287 15.5841 19 12 19c-3.584 0-6.8012-1.5713-9-4.0625m7.7448-6.2758L3 22M13.2552 8.6617 21 22"
     />
   </svg>
 );

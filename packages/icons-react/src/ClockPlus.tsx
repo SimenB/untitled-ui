@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const ClockPlus = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const ClockPlus = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M20.9287 12.1385A9.1016 9.1016 0 0 0 21 11c0-4.9706-4.0294-9-9-9s-9 4.0294-9 9 4.0294 9 9 9c.3919 0 .7779-.025 1.1565-.0736M12 5.6V11l3.3645 1.6823M18.3 20v-5.4m-2.7 2.7H21"
+      d="M21.9208 13.265C21.9731 12.8507 22 12.4285 22 12c0-5.5228-4.4772-10-10-10S2 6.4772 2 12s4.4772 10 10 10a10.1 10.1 0 0 0 1.285-.0818M12 6v6l3.7384 1.8692M19 22v-6m-3 3h6"
     />
   </svg>
 );

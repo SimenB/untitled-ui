@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Flash = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,13 +10,11 @@ const Flash = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="m12.0567 3-8.0159 9.6191c-.3139.3767-.4708.565-.4732.7241a.45.45 0 0 0 .167.3568c.1238.1.369.1.8594.1h6.5627l-.9 7.2 8.0159-9.6191c.314-.3767.4709-.565.4733-.7241a.4498.4498 0 0 0-.1671-.3568c-.1237-.1-.3689-.1-.8593-.1h-6.5628l.9-7.2Z"
+      d="M13 2 4.0934 12.6879c-.3488.4185-.5232.6278-.5258.8046a.5.5 0 0 0 .1856.3964c.1375.1111.41.1111.9548.1111H12l-1 8 8.9065-10.6879c.3488-.4185.5232-.6278.5259-.8046a.5.5 0 0 0-.1857-.3964C20.1092 10 19.8368 10 19.292 10H12z"
     />
   </svg>
 );

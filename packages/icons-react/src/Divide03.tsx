@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Divide03 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const Divide03 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12.45 8.4a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Zm0 7.2a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M12 8.4h.009M12 15.6h.009M7.5 12h9m-4.05-3.6a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0Zm0 7.2a.45.45 0 1 1-.9 0 .45.45 0 0 1 .9 0ZM21 12c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Z"
+      d="M12 8h.01M12 16h.01M7 12h10m-4.5-4a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m0 8a.5.5 0 1 1-1.0001-.0001A.5.5 0 0 1 12.5 16m9.5-4c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2s10 4.4772 10 10"
     />
   </svg>
 );

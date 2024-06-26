@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const MicrophoneOff02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,16 +10,11 @@ const MicrophoneOff02 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M8.4 11.9c0 1.9882 1.6118 3.6 3.6 3.6 1.2225 0 2.3026-.6093 2.9533-1.5408L8.4 7.4v4.5Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M4.8 11v.9c0 3.9764 3.2236 7.2 7.2 7.2 2.2187 0 4.2031-1.0036 5.5238-2.5816M3 2l18 18M15.6 9.56V6.5c0-1.9882-1.6118-3.6-3.6-3.6a3.585 3.585 0 0 0-2.2762.8108M12 15.5c-1.9882 0-3.6-1.6118-3.6-3.6V7.4l6.5533 6.5592C14.3026 14.8907 13.2225 15.5 12 15.5Z"
+      d="M4 12v1c0 4.4183 3.5817 8 8 8 2.4653 0 4.6701-1.1151 6.1376-2.8684M2 2l20 20m-6-11.6V7c0-2.2091-1.7909-4-4-4a3.984 3.984 0 0 0-2.5291.9009M12 17c-2.2091 0-4-1.7909-4-4V8l7.2815 7.288C14.5585 16.323 13.3583 17 12 17"
     />
   </svg>
 );

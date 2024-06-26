@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Speedometer04 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,21 +10,11 @@ const Speedometer04 = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 21c4.9706 0 9-4.0294 9-9s-4.0294-9-9-9-9 4.0294-9 9 4.0294 9 9 9Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M12 12.9a.9.9 0 0 0 .9-.9.9.9 0 0 0-.9-.9.9.9 0 0 0-.9.9.9.9 0 0 0 .9.9Z"
-    />
-    <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M17.1708 15.6C17.8826 14.5795 18.3 13.3385 18.3 12c0-.4634-.05-.9151-.145-1.35M6.8292 15.6C6.1174 14.5795 5.7 13.3385 5.7 12c0-3.4794 2.8206-6.3 6.3-6.3.3799 0 .752.0336 1.1134.098m2.9365 2.152-4.05 4.05M21 12c0 4.9706-4.0294 9-9 9s-9-4.0294-9-9 4.0294-9 9-9 9 4.0294 9 9Zm-8.1 0a.9.9 0 0 1-.9.9.9.9 0 0 1-.9-.9.9.9 0 0 1 .9-.9.9.9 0 0 1 .9.9Z"
+      d="M17.7453 16C18.5362 14.8661 19 13.4872 19 12a7.03 7.03 0 0 0-.1611-1.5M6.2547 16C5.4638 14.8662 5 13.4872 5 12c0-3.866 3.134-7 7-7 .4221 0 .8355.0374 1.2371.109M16.4999 7.5l-4.5 4.5M22 12c0 5.5228-4.4772 10-10 10S2 17.5228 2 12 6.4772 2 12 2s10 4.4772 10 10m-9 0c0 .5523-.4477 1-1 1s-1-.4477-1-1 .4477-1 1-1 1 .4477 1 1"
     />
   </svg>
 );

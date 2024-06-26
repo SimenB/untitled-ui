@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const SunSetting02 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const SunSetting02 = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M21 15.15H3m16.2 3.15H4.8M12 3v1.8M4.8 12H3m3.8827-5.1173L5.6099 5.6099M17.117 6.8827l1.2728-1.2728M21 12h-1.8M7.5 12c0-2.4853 2.0147-4.5 4.5-4.5s4.5 2.0147 4.5 4.5"
+      d="M22 16.5H2M20 20H4m8-17v2m-8 8H2m4.3141-5.6859L4.9 5.9m12.7856 1.4142L19.0998 5.9M22 13h-2M7 13c0-2.7614 2.2386-5 5-5s5 2.2386 5 5"
     />
   </svg>
 );

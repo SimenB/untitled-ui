@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const UploadCloud01 = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const UploadCloud01 = (props: SVGProps<SVGSVGElement>) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M4.8 14.918C3.7146 14.1915 3 12.9542 3 11.55c0-2.1092 1.6124-3.8418 3.6718-4.0326C7.093 4.955 9.3182 3 12 3s4.907 1.955 5.3282 4.5174C19.3876 7.7082 21 9.4408 21 11.55c0 1.4042-.7146 2.6415-1.8 3.368M8.4 14.7l3.6-3.6m0 0 3.6 3.6M12 11.1v8.1"
+      d="M4 16.2422c-1.206-.8072-2-2.182-2-3.7422 0-2.3436 1.7915-4.2687 4.0797-4.4806C6.5478 5.172 9.0202 3 12 3s5.4522 2.1721 5.9203 5.0194C20.2085 8.2313 22 10.1564 22 12.5c0 1.5602-.794 2.935-2 3.7422M8 16l4-4m0 0 4 4m-4-4v9"
     />
   </svg>
 );

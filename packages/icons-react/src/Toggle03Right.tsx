@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGProps } from 'react';
+import type { SVGProps } from 'react';
 const Toggle03Right = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -10,28 +10,18 @@ const Toggle03Right = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M3 11.4C3 8.4177 5.4177 6 8.4 6h7.2c2.9823 0 5.4 2.4177 5.4 5.4 0 2.9823-2.4177 5.4-5.4 5.4H8.4c-2.9823 0-5.4-2.4177-5.4-5.4Z"
-    />
-    <path
-      fill="transparent"
-      fillOpacity={0.01}
-      d="M15.6 13.65c1.2426 0 2.25-1.0074 2.25-2.25s-1.0074-2.25-2.25-2.25-2.25 1.0074-2.25 2.25 1.0074 2.25 2.25 2.25Z"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M2 12c0-3.3137 2.6863-6 6-6h8c3.3137 0 6 2.6863 6 6s-2.6863 6-6 6H8c-3.3137 0-6-2.6863-6-6"
     />
     <path
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M3 11.4C3 8.4177 5.4177 6 8.4 6h7.2c2.9823 0 5.4 2.4177 5.4 5.4 0 2.9823-2.4177 5.4-5.4 5.4H8.4c-2.9823 0-5.4-2.4177-5.4-5.4Z"
-    />
-    <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={2}
-      d="M15.6 13.65c1.2426 0 2.25-1.0074 2.25-2.25s-1.0074-2.25-2.25-2.25-2.25 1.0074-2.25 2.25 1.0074 2.25 2.25 2.25Z"
+      d="M16 14.5c1.3807 0 2.5-1.1193 2.5-2.5S17.3807 9.5 16 9.5s-2.5 1.1193-2.5 2.5 1.1193 2.5 2.5 2.5"
     />
   </svg>
 );
